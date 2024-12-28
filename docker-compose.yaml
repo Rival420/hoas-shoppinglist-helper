@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  hoass-notifier:
+    build:
+      context: .
+    container_name: hoass-notifier
+    ports:
+      - "4203:4203"
+    environment:
+      - HA_TOKEN="" #your long live access token for Home Assistant 
+      - HA_URL="https://<hoas-ip>/api/shopping_list"
+      - NTFY_URL="" #your ntfy server + topic
+    restart: unless-stopped
