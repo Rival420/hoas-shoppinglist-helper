@@ -74,7 +74,7 @@ You should have at least the following files:
    ```yaml
    rest_command:
      trigger_http:
-       url: "http://192.168.1.80:4203/shoppinglist"
+       url: "http://<ip-of-the-docker>:4203/shoppinglist"
        method: GET
    ```
 
