@@ -66,6 +66,32 @@ You should have at least the following files:
 
    You should see a JSON response containing `{"status":"OK","message_sent":[ ... ]}` if everything went smoothly.
 
+7. **integration with Home Assistant**
+
+   Now that the API is up and running we should integrate this into home assistant.
+   add the following code snippet to your configurations.yaml file
+
+   ```yaml
+   rest_command:
+     trigger_http:
+       url: "http://192.168.1.80:4203/shoppinglist"
+       method: GET
+   ```
+
+   And we can use this in a script to trigger the http GET request.
+   Go to scripts > add a script > enter YAML mode > paste the following
+
+   ```yaml
+   alias: Shopping_List
+   sequence:
+     - action: rest_command.trigger_http
+       data: {}
+   mode: single
+   description: ""
+   ```
+
+   and now you can use this in an automation as `script.shopping_list`
+
 ## Troubleshooting
 
 - If you get a `HTTPException(status_code=500, detail=...)`, check:
