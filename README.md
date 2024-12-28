@@ -37,7 +37,7 @@ You should have at least the following files:
 
 1. **Clone or download** this repository to your local machine.
 
-2. **(Optional)** Update the `HA_URL`, `HA_TOKEN`, and `NTFY_URL` environment variables in the Dockerfile, or plan to pass them in at runtime.
+2.  **Update** the `HA_URL`, `HA_TOKEN`, and `NTFY_URL` environment variables in the `docker-compose.yaml` file.
 
 3. **Build** the Docker image:
 
