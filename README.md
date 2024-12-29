@@ -10,7 +10,7 @@ This project provides a **single FastAPI endpoint** that:
 Everything runs neatly in a Docker container that will be integrated via home-assistant.
 
 Here is an high-level overview
-(./)
+[!here](./hoas-notifier.drawio.png)
 
 ## Features
 
