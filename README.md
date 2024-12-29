@@ -7,7 +7,10 @@ This project provides a **single FastAPI endpoint** that:
 2. Filters out incomplete tasks.
 3. Sends those tasks to an ntfy.sh endpoint.
 
-Everything runs neatly in a Docker container.
+Everything runs neatly in a Docker container that will be integrated via home-assistant.
+
+Here is an high-level overview
+(./)
 
 ## Features
 
