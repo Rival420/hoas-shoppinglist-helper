@@ -1,9 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.1">
   <diagram name="Page-1" id="9pSlutS14w5OOk423_Tn">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0O63RP4pciQtD-sS-Z8--1" value="&lt;div style=&quot;padding-top: 0px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--18" value="tcp/443&lt;div&gt;or&lt;/div&gt;&lt;div&gt;tcp/80&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0O63RP4pciQtD-sS-Z8--3" target="0O63RP4pciQtD-sS-Z8--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="228" />
+              <mxPoint x="130" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0O63RP4pciQtD-sS-Z8--18">
+          <mxGeometry x="-0.0439" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--3" value="hoas-notifier docker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--6" value="Docker Host" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--2" value="Home Assistant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--16" value="shopping list data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0O63RP4pciQtD-sS-Z8--7" target="0O63RP4pciQtD-sS-Z8--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="300" />
+              <mxPoint x="450" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--7" value="shopping_list API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="255" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--8" value="script.shopping_list" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--11" value="ntfy docker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="255" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--15" value="tcp/8123&lt;div&gt;GET /api/shopping_list&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="0O63RP4pciQtD-sS-Z8--3" target="0O63RP4pciQtD-sS-Z8--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--9" value="tcp/4203&lt;div&gt;GET /shoppinglist&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="0O63RP4pciQtD-sS-Z8--8" target="0O63RP4pciQtD-sS-Z8--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0O63RP4pciQtD-sS-Z8--22" value="deoending on how you reach the NTFY endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="225" width="80" height="85" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
