@@ -59,7 +59,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0O63RP4pciQtD-sS-Z8--22" value="deoending on how you reach the NTFY endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0O63RP4pciQtD-sS-Z8--22" value="depending on how you reach the NTFY endpoint" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="225" width="80" height="85" as="geometry" />
         </mxCell>
       </root>
