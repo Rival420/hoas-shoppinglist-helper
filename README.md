@@ -58,7 +58,7 @@ You should have at least the following files:
 
    ```bash
    docker ps
-   docker logs hoas-shopping-list
+   docker logs hoas-notifier
    ```
 
 6. **Test** the FastAPI endpoint:
