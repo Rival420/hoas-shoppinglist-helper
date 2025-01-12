@@ -64,7 +64,7 @@ You should have at least the following files:
 6. **Test** the FastAPI endpoint:
 
    ```bash
-   curl -X POST http://localhost:4203/shoppinglist
+   curl -X GET http://localhost:4203/shoppinglist
    ```
 
    You should see a JSON response containing `{"status":"OK","message_sent":[ ... ]}` if everything went smoothly.
